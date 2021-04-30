@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser')
 const session = require('express-session')
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://crane-quotable.herokuapp.com',
   credentials: true
 }
 
